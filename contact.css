@@ -1,0 +1,62 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f2f5; /* Màu nền nhẹ nhàng */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* Đảm bảo khung nội dung không quá rộng trên màn hình lớn */
+.container {
+    max-width: 600px;
+    width: 100%;
+}
+.contact-card {
+    background-color: #ffffff;
+    border-radius: 16px; /* Góc bo tròn lớn hơn */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Bóng đổ mềm mại */
+    padding: 32px;
+    text-align: center;
+    justify-content: center;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 12px 0;
+    border-radius: 12px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.contact-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    justify-content: center;
+}
+.contact-item:last-child {
+    margin-bottom: 0;
+    justify-content: center;
+}
+.icon {
+    margin-right: 15px;
+    font-size: 28px; /* Kích thước biểu tượng lớn hơn */
+    color: #4a5568; /* Màu biểu tượng */
+}
+.text-link {
+    font-size: 18px; /* Kích thước chữ lớn hơn */
+    color: #2b6cb0; /* Màu liên kết */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease-in-out;
+}
+.text-link:hover {
+    color: #3182ce; /* Màu liên kết khi hover */
+}
+.title {
+    color: #2d3748; /* Màu tiêu đề */
+    margin-bottom: 30px;
+    font-weight: 700;
+}

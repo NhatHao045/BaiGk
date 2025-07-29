@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ font-family: 'Times New Roman', Times, serif, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 40px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4a2cc9;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #ffc800;
+  display: block;
+  margin: 0 auto 25px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.highlight {
+  color: #ff7b00;
+  font-weight: bold;
+}
+
+.contact {
+  margin-top: 30px;
+}
+
+.contact a {
+  color: #4a2cc9;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
